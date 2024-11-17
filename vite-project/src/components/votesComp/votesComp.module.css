@@ -1,0 +1,19 @@
+.candidatesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.loadingText {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.errorText {
+    font-size: 1.2rem;
+    color: red;
+}

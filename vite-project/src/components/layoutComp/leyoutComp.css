@@ -1,0 +1,65 @@
+/* עיצוב לקומפוננטת MainLayout */
+
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* עיצוב ה-Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: white;
+}
+
+.navbar-links a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.navbar-auth .login-button,
+.navbar-auth .logout-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar-auth .logout-button {
+    background-color: #dc3545;
+}
+
+.navbar-auth .login-button:hover,
+.navbar-auth .logout-button:hover {
+    opacity: 0.9;
+}
+
+/* עיצוב תוכן הדף */
+.main-content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+/* עיצוב ה-Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #343a40;
+    color: white;
+}
